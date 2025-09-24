@@ -58,6 +58,14 @@ export interface AirtimeTopUpParams{
 }
 
 
+export interface DataBundleTopupParams{
+    retailer:string;
+    recipient:string;
+    data_code:string;
+    network:Network;
+    trxn:string;
+}
+
 export interface MobileMoneyTransferParams{
     recipient:string;
     amount:number;
